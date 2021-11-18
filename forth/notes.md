@@ -7,4 +7,5 @@ https://patorjk.com/programming/articles/forththoughts.htm
 https://colorforth.github.io/HOPL.html
 https://www.bradrodriguez.com/papers/moving1.htm
 http://www.murphywong.net/hello/simple.htm
+http://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm
 
