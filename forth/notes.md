@@ -1,11 +1,11 @@
-https://github.com/flagxor/eforth
-https://wiki.xxiivv.com/site/forth.html
-http://www.ultratechnology.com/method.htm
-https://users.ece.cmu.edu/~koopman/stack_computers/appb.html
-http://www.call-with-current-continuation.org/articles/forth.txt
-https://patorjk.com/programming/articles/forththoughts.htm
-https://colorforth.github.io/HOPL.html
-https://www.bradrodriguez.com/papers/moving1.htm
-http://www.murphywong.net/hello/simple.htm
-http://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm
+- https://github.com/flagxor/eforth
+- https://wiki.xxiivv.com/site/forth.html
+- http://www.ultratechnology.com/method.htm
+- https://users.ece.cmu.edu/~koopman/stack_computers/appb.html
+- http://www.call-with-current-continuation.org/articles/forth.txt
+- https://patorjk.com/programming/articles/forththoughts.htm
+- https://colorforth.github.io/HOPL.html
+- https://www.bradrodriguez.com/papers/moving1.htm
+- http://www.murphywong.net/hello/simple.htm
+- http://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm
 
