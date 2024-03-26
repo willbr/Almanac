@@ -41,6 +41,23 @@ print_sizes(void) {
 * <https://www.embedded.com/reduce-c-language-coding-errors-with-x-macros-part-1/>
 * <https://en.wikibooks.org/wiki/C_Programming/Preprocessor_directives_and_macros#X-Macros>
 
+# twitter
+
+https://twitter.com/nothings/status/1770449205842329730
+
+(BLM) Sean Barrett
+@nothings
+Protip:
+
+In C, allocate arrays with malloc/calloc using sizeof() the variable, not the type:
+
+   foo *arr = malloc(num_arr * sizeof(arr[0]));
+
+not
+
+   foo *arr = malloc(num_arr * sizeof(foo));
+
+If you change the type of 'arr', the first is still correct, the second is wrong.
 
 # References
 
