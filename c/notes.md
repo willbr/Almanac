@@ -2,7 +2,7 @@
 
 # X Macro
 
-Take a list of vaules and reuse them.
+Take a list of values and reuse them.
 
 ```c
 #define LIST_OF_TYPES \
