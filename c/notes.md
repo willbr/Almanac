@@ -59,6 +59,62 @@ not
 
 If you change the type of 'arr', the first is still correct, the second is wrong.
 
+# printf %.* dynamic precision or field width
+
+
+## dynamic precision
+
+    int prec = 4;  // precision
+    double num = 3.14159265;
+
+    printf("%.*f\n", prec, num);  // prints: 3.1416
+
+## field width
+
+    const char *str = "Hello, World!";
+    int width = 5;
+
+    // Print only the first 'width' characters from the string
+    printf("First %d characters: '%.*s'\n", width, width, str);
+
+    return 0;
+
+output:
+
+    First 5 characters: 'Hello'
+
+# comma operator
+
+    (expression1, expression2)
+
+* expression1 is evaluated
+* expression2 is evaluated
+* expression 2 is the result
+
+    int a=1, b=2;
+    b = (a=2, 10);
+
+the result is:
+
+    a == 2
+    b == 10
+
+The comma operator has lower precedence that most operators, so it needs parentheses.
+
+    int x = (a = 5, b = 3);
+
+## for loops
+
+    for (int i = 0, j = 10; i < j; i++, j--) {
+        printf("i = %d, j = %d\n", i, j);
+    }
+
+# Cosmopolitan Libc
+
+https://justine.lol/cosmopolitan/index.html
+
+Cosmopolitan Libc makes C a build-anywhere run-anywhere language, like Java, except it doesn't need an interpreter or virtual machine. Instead, it reconfigures stock GCC and Clang to output a POSIX-approved polyglot format that runs natively on Linux + Mac + Windows + FreeBSD + OpenBSD + NetBSD + BIOS on AMD64 and ARM64 with the best possible performance. 
+
 # References
 
 * <https://wiki.xxiivv.com/site/ansi_c.html>
