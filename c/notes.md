@@ -51,11 +51,15 @@ Protip:
 
 In C, allocate arrays with malloc/calloc using sizeof() the variable, not the type:
 
-   foo *arr = malloc(num_arr * sizeof(arr[0]));
+```c
+foo *arr = malloc(num_arr * sizeof(arr[0]));
+```
 
 not
 
-   foo *arr = malloc(num_arr * sizeof(foo));
+```c
+foo *arr = malloc(num_arr * sizeof(foo));
+```
 
 If you change the type of 'arr', the first is still correct, the second is wrong.
 
