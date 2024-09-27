@@ -64,20 +64,24 @@ If you change the type of 'arr', the first is still correct, the second is wrong
 
 ## dynamic precision
 
-    int prec = 4;  // precision
-    double num = 3.14159265;
+```c
+int prec = 4;  // precision
+double num = 3.14159265;
 
-    printf("%.*f\n", prec, num);  // prints: 3.1416
+printf("%.*f\n", prec, num);  // prints: 3.1416
+```
 
 ## field width
 
-    const char *str = "Hello, World!";
-    int width = 5;
+```c
+const char *str = "Hello, World!";
+int width = 5;
 
-    // Print only the first 'width' characters from the string
-    printf("First %d characters: '%.*s'\n", width, width, str);
+// Print only the first 'width' characters from the string
+printf("First %d characters: '%.*s'\n", width, width, str);
 
-    return 0;
+return 0;
+```
 
 output:
 
@@ -91,23 +95,31 @@ output:
 * expression2 is evaluated
 * expression 2 is the result
 
-    int a=1, b=2;
-    b = (a=2, 10);
+```c
+int a=1, b=2;
+b = (a=2, 10);
+```
 
 the result is:
 
-    a == 2
-    b == 10
+```c
+a == 2
+b == 10
+```
 
 The comma operator has lower precedence that most operators, so it needs parentheses.
 
-    int x = (a = 5, b = 3);
+```c
+int x = (a = 5, b = 3);
+```
 
 ## for loops
 
+```c
     for (int i = 0, j = 10; i < j; i++, j--) {
         printf("i = %d, j = %d\n", i, j);
     }
+```
 
 # Cosmopolitan Libc
 
